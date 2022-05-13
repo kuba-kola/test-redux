@@ -1,0 +1,22 @@
+body {
+    transition: .2s all ease-in;
+  }
+  
+  body.dark {
+    background: #A9A9A9;
+    color: #F0FFFF;
+    hr {
+        border-top: 1px solid rgba(0,0,0,.9);
+    }
+    .card {
+        background: #FFA07A;
+        border: 1px solid rgba(0,0,0,.875);
+    }
+  }
+  
+  .heading {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  

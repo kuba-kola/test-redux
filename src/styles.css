@@ -1,0 +1,28 @@
+body {
+  -webkit-transition: 0.2s all ease-in;
+  transition: 0.2s all ease-in;
+}
+
+body.dark {
+  background: #A9A9A9;
+  color: #F0FFFF;
+}
+body.dark hr {
+  border-top: 1px solid rgba(0, 0, 0, 0.9);
+}
+body.dark .card {
+  background: #FFA07A;
+  border: 1px solid rgba(0, 0, 0, 0.875);
+}
+
+.heading {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
